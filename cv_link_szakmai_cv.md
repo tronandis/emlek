@@ -3,19 +3,6 @@ layout: default
 title: Életrajz szakmai
 permalink: /cv/szakmai
 ---
-
-<div class="art-layout-cell art-content">
-    <article class="art-post art-messages" style="display: none;">
-	<div class="art-postcontent clearfix">
-	    <div id="system-message-container"></div>
-	</div>
-    </article>
-    <div class="blog">
-
-
-
-
-
 <div class="item-page">
     <article class="art-post">
 	<div class="art-postcontent clearfix">
@@ -126,6 +113,4 @@ permalink: /cv/szakmai
 <p><br /><br /></p> </div></div></article></div>
 
 
-    </div>
-</div>
 
