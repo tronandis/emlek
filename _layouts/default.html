@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="hu-hu" slick-uniqueid="3" class="chrome chrome121 desktop">
+
+
+<head>
+    <link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
+    <!--base href="file:///mnt/raid6_data/user/ogabor/static_tronarpad/jekyll/proba/_site/" /-->
+    <!--base href="file:///mnt/tmp/1/static_tronarpad/jekyll/proba/_site/" /-->
+    <base href="http://localhost:4000" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <meta name="author" content="Várbíróné Nahaji Anikó">
+    <meta name="description" content="Trón Árpád festőművész élete és munkái.">
+    <meta name="generator" content="Joomla! - Open Source Content Management">
+
+    <!--title>Nyitólap</title-->
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link href="http://tronarpad.hu:81/index.php/component/search/?Itemid=101&amp;format=opensearch" rel="search" title="Keresés Trón Árpád emlékhonlap" type="application/opensearchdescription+xml">
+    <link href="csss/phocagallery.css" rel="stylesheet" type="text/css">
+    <link href="csss/rating.css" rel="stylesheet" type="text/css">
+    <link href="csss/default.css" rel="stylesheet" type="text/css">
+    <link href="csss/phocagallery(1).css" rel="stylesheet" type="text/css">
+    <link href="csss/modal.css" rel="stylesheet" type="text/css">
+    <link href="csss/boxplus.css" rel="stylesheet" type="text/css">
+    <link href="csss/boxplus.darkrounded.css" rel="stylesheet" type="text/css" title="boxplus-darkrounded">
+    <script type="application/json" class="joomla-script-options new">{"csrf.token":"09f4752a0be8258ba724bc9eac9ce93a","system.paths":{"root":"","base":""}}</script>
+    <script src="csss/mootools-core.js" type="text/javascript"></script>
+    <script src="csss/core.js" type="text/javascript"></script>
+    <script src="csss/mootools-more.js" type="text/javascript"></script>
+    <script src="csss/modal.js" type="text/javascript"></script>
+    <script src="csss/jquery.min.js" type="text/javascript"></script>
+    <script src="csss/jquery-noconflict.js" type="text/javascript"></script>
+    <script src="csss/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="csss/boxplus.js" type="text/javascript"></script>
+    <script src="csss/boxplus.lang.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+	jQuery(function($) 
+			{
+				SqueezeBox.initialize({});
+				initSqueezeBox();
+				$(document).on('subform-row-add', initSqueezeBox);
+				function initSqueezeBox(event, container)
+				{
+					SqueezeBox.assign($(container || document).find('a.pg-modal-button').get(), {parse: 'rel'});
+				}
+			}
+		);
+	window.jModalClose = function () {
+    	    SqueezeBox.close();
+	};
+	// Add extra modal close functionality for tinyMCE-based editors
+	document.onreadystatechange = function () {
+    	    if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+    	    {
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined'){
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					jModalClose = function () {
+					if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+					tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined'){
+						if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+					SqueezeBox.close = function () {
+					if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+					tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+    	    }
+	};
+	window.addEvent("domready", function () {
+    	    new boxplus($$("a.phocagallerycboxplusri"),{"theme":"darkrounded","autocenter":1,"autofit":1,"slideshow":4000,"loop":0,"captions":"bottom","thumbs":"inside","width":680,"height":515,"duration":250,"transition":"quad","contextmenu":1, phocamethod:1});
+    	    new boxplus($$("a.phocagallerycboxplusiri"),{"theme":"darkrounded","autocenter":1,"autofit":1,"slideshow":4000,"loop":0,"captions":"bottom","thumbs":"hide","width":680,"height":515,"duration":250,"transition":"quad","contextmenu":1, phocamethod:1});
+    	    new boxplus($$("a.phocagallerycboxplusori"),{"theme":"darkrounded","autocenter":1,"autofit": false,"slideshow": false,"loop":false,"captions":"none","thumbs":"hide","width":680,"height":515,"duration":0,"transition":"linear","contextmenu":false, phocamethod:2});
+	});
+
+    </script>
+
+    <style type="text/css">
+    .pg-cv-box-mod-ri {
+       height: 160px;
+       width: 140px;"
+    }
+    .pg-cv-box-img-mod-ri {
+       height: 140px;
+       width: 140px;"
+    }
+    </style>
+
+    <link rel="stylesheet" href="csss/system.css">
+    <link rel="stylesheet" href="csss/general.css">
+
+    <!-- Created by Artisteer v4.1.0.59861 -->
+    
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="csss/template.css" media="screen">
+
+    <!--[if lte IE 7]><link rel="stylesheet" href="/templates/temp17/css/template.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="csss/template.responsive.css" media="all">
+    <link rel="stylesheet" type="text/css" href="csss/css">
+
+    <script>if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
+    <script src="csss/jquery.js"></script>
+    <script>jQuery.noConflict();</script>
+    <script src="csss/script.js"></script>
+    <script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+    <script src="csss/script.responsive.js"></script>
+
+</head>
+
+<body>
+
+<div id="art-main">
+    <div class="art-sheet clearfix">
+		<header class="art-header">
+			<div class="art-shapes"></div>
+			<h1 class="art-headline" data-left="11.02%"><a href="index.html">Trón Árpád</a></h1>
+			<h2 class="art-slogan" data-left="16%">1968-2011</h2>
+
+			<nav class="art-nav desktop-nav">
+			<a href="http://tronarpad.hu:81/index.php/home#" class="art-menu-btn"></a>
+
+			<!--sor menu-->
+			<ul class="art-hmenu">
+				<li class="item-101 current active"><a class=" active" href="index.html">Nyitólap</a></li>
+				<li class="item-102 deeper parent"><a>Élete</a>
+					<ul>
+						<li class="item-103"><a href="cv/index.html">Életrajz</a></li>
+						<li class="item-127"><a href="cv_news/index.html">Újságcikkek, vélemények, kritikák</a></li>
+					</ul>
+				</li>
+				<li class="item-119 deeper parent"><a>Festmények</a>
+					<ul>
+						<li class="item-129"><a href="festmenyek/figurak.html">Figurák</a></li>
+						<li class="item-131"><a href="festmenyek/nonfigurativ.html">Nonfiguratív képek</a></li>
+						<li class="item-132"><a href="festmenyek/noalakok.html">Nőalakok, aktok</a></li>
+						<li class="item-133"><a href="festmenyek/onarckepek.html">Önarcképek</a></li>
+						<li class="item-134"><a href="festmenyek/portrek_arcok.html">Portrék, arcok</a></li>
+						<li class="item-135"><a href="festmenyek/vallasos.html">Vallásos képek</a></li>
+						<li class="item-136"><a href="festmenyek/zenesz.html">Zenész képek</a></li>
+					</ul>
+				</li>
+				<li class="item-128 deeper parent"><a>Grafikai alkotások</a>
+					<ul>
+						<li class="item-157"><a href="grafikak/kiallitas-2015.html">2015-ben Debreceni Egyetemen kiállított grafikák</a></li>
+						<li class="item-173"><a href="grafikak/valogatott_grafikai_alkotasok.html">Válogatott grafikai alkotások</a></li>
+					</ul>
+				</li>
+				<li class="item-120 deeper parent"><a href="kiallitasok/index.html">Kiállítások</a>
+					<ul>
+						<li class="item-170 deeper parent"><a>2000. előtti kiállítások</a>
+							<ul>
+								<li class="item-156"><a href="kiallitasok/2000-elotti-kiallitasok/fenykepek.html">1995. okt. , Debrecen, Kereskedelmi</a></li>
+								<li class="item-151"><a href="kiallitasok/2000-elotti-kiallitasok/1996-debrecen-brassai.html">1996. ápr. , Debrecen, Brassai</a></li>
+								<li class="item-164"><a href="kiallitasok/2000-elotti-kiallitasok/1996-jun-debrecen-szoboszloi-u.html">1996. jún. , Debrecen, Szoboszlói u.</a></li>
+								<li class="item-165"><a href="kiallitasok/2000-elotti-kiallitasok/1997-febr-hajduboszormeny.html">1997. febr. , Hajdúböszörmény</a></li>
+								<li class="item-148"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1997.html">1997. ápr. , Debr. Gábor Dénes</a></li>
+								<li class="item-153"><a href="kiallitasok/2000-elotti-kiallitasok/1997-debrecen-zenemuv.html">1997. szept. , Debr. Zeneműv.</a></li>
+								<li class="item-145"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1998.html">1998. Debrecen, Aranybika</a></li>
+								<li class="item-166"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1999-januar.html">1999. január , Eger</a></li>
+							</ul>
+						</li>
+						<li class="item-167"><a href="kiallitasok/2004-januar-eger.html">2004. január , Eger</a></li>
+						<li class="item-168"><a href="kiallitasok/2005-julius-zsambek.html">2005. július, Zsámbék</a></li>
+						<li class="item-169"><a href="kiallitasok/2007-julius-debrecen-zenemuveszeti.html">2007. július, Debrecen Zeneművészeti</a></li>
+						<li class="item-155"><a href="kiallitasok/1999-debrecen-benedek.html">2009. Debrecen, Benedek</a></li>
+						<li class="item-171"><a href="kiallitasok/2011-aprilis-eger.html">2011. április , Eger</a></li>
+						<li class="item-150"><a href="kiallitasok/2013-dote-elmeleti-galeria.html">2013. DOTE Elméleti Galéria</a></li>
+						<li class="item-146"><a href="grafikak/kiallitas-2015.html">2015. Debrecen, DE Elméleti Galéria</a></li>
+					</ul>
+				</li>
+				<li class="item-121 deeper parent"><a href="http://tronarpad.hu:81/index.php/home#">Emlékek</a>
+					<ul>
+						<li class="item-147"><a href="emlekek/vers-arpirol.html">Versek Árpiról</a></li>
+						<li class="item-163"><a href="emlekek/videok.html">Videók</a></li>
+					</ul>
+				</li>
+				<li class="item-172"><a href="http://tronarpad.hu:81/index.php/kapcsolat">Kapcsolat</a></li>
+			</ul>
+			</nav>
+		</header>
+
+	<!--oszlop menu-->
+	<div class="art-layout-wrapper">
+	    <div class="art-content-layout">
+			<div class="art-content-layout-row">
+				<div class="art-layout-cell art-sidebar1">
+					<div class="art-block clearfix_menu">
+						<div class="art-blockcontent">
+							<ul class="menu">
+								<li class="item-101 current active"><a href="index.html">Nyitólap</a></li>
+								<li class="item-102 deeper parent"><a>Élete</a>
+									<ul>
+										<li class="item-103"><a href="cv/index.html">Életrajz</a></li>
+										<li class="item-127"><a href="cv_news/index.html">Újságcikkek, vélemények, kritikák</a></li>
+									</ul>
+								</li>
+								<li class="item-119 deeper parent"><a>Festmények</a>
+									<ul>
+										<li class="item-129"><a href="festmenyek/figurak.html">Figurák</a></li>
+										<li class="item-131"><a href="festmenyek/nonfigurativ.html">Nonfiguratív képek</a></li>
+										<li class="item-132"><a href="festmenyek/noalakok.html">Nőalakok, aktok</a></li>
+										<li class="item-133"><a href="festmenyek/onarckepek.html">Önarcképek</a></li>
+										<li class="item-134"><a href="festmenyek/portrek_arcok.html">Portrék, arcok</a></li>
+										<li class="item-135"><a href="festmenyek/vallasos.html">Vallásos képek</a></li>
+										<li class="item-136"><a href="festmenyek/zenesz.html">Zenész képek</a></li>
+									</ul>
+								</li>
+								<li class="item-128 deeper parent"><a>Grafikai alkotások</a>
+									<ul>
+										<li class="item-157"><a href="grafikak/kiallitas-2015.html">2015-ben Debreceni Egyetemen kiállított grafikák</a></li>
+										<li class="item-173"><a href="grafikak/valogatott_grafikai_alkotasok.html">Válogatott grafikai alkotások</a></li>
+									</ul>
+								</li>
+								<li class="item-120 deeper parent">
+									<a href="kiallitasok/index.html">Kiállítások</a>
+									<ul>
+										<li class="item-170 deeper parent"><a>2000. előtti kiállítások</a>
+											<ul>
+												<li class="item-156"><a href="kiallitasok/2000-elotti-kiallitasok/fenykepek.html">1995. okt. , Debrecen, Kereskedelmi</a></li>
+												<li class="item-151"><a href="kiallitasok/2000-elotti-kiallitasok/1996-debrecen-brassai.html">1996. ápr. , Debrecen, Brassai</a></li>
+												<li class="item-164"><a href="kiallitasok/2000-elotti-kiallitasok/1996-jun-debrecen-szoboszloi-u.html">1996. jún. , Debrecen, Szoboszlói u.</a></li>
+												<li class="item-165"><a href="kiallitasok/2000-elotti-kiallitasok/1997-febr-hajduboszormeny.html">1997. febr. , Hajdúböszörmény</a></li>
+												<li class="item-148"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1997.html">1997. ápr. , Debr. Gábor Dénes</a></li>
+												<li class="item-153"><a href="kiallitasok/2000-elotti-kiallitasok/1997-debrecen-zenemuv.html">1997. szept. , Debr. Zeneműv.</a></li>
+												<li class="item-145"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1998.html">1998. Debrecen, Aranybika</a></li>
+												<li class="item-166"><a href="kiallitasok/2000-elotti-kiallitasok/kiallitas-1999-januar.html">1999. január , Eger</a></li>
+											</ul>
+										</li>
+										<li class="item-167"><a href="kiallitasok/2004-januar-eger.html">2004. január , Eger</a></li>
+										<li class="item-168"><a href="kiallitasok/2005-julius-zsambek.html">2005. július, Zsámbék</a></li>
+										<li class="item-169"><a href="kiallitasok/2007-julius-debrecen-zenemuveszeti.html">2007. július, Debrecen Zeneművészeti</a></li>
+										<li class="item-155"><a href="kiallitasok/1999-debrecen-benedek.html">2009. Debrecen, Benedek</a></li>
+										<li class="item-171"><a href="kiallitasok/2011-aprilis-eger.html">2011. április , Eger</a></li>
+										<li class="item-150"><a href="kiallitasok/2013-dote-elmeleti-galeria.html">2013. DOTE Elméleti Galéria</a></li>
+										<li class="item-146"><a href="grafikak/kiallitas-2015.html">2015. Debrecen, DE Elméleti Galéria</a></li>
+									</ul>
+								</li>
+								<li class="item-121 deeper parent"><a>Emlékek</a>
+									<ul>
+										<li class="item-147"><a href="emlekek/vers-arpirol.html">Versek Árpiról</a></li>
+										<li class="item-163"><a href="emlekek/videok.html">Videók</a></li>
+									</ul>
+								</li>
+								<li class="item-172"><a href="http://tronarpad.hu:81/index.php/kapcsolat">Kapcsolat</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+<!--div class="content"-->
+<div class="art-layout-cell art-content">
+{{ content | replace: "&lt;", "<" | replace: "&gt;", ">" }}
+</div>
+<!--end of div class="content"-->
+
+				<div class="art-layout-cell art-sidebar2">
+					<div id="phocagallery-module-ri" style="text-align:center; margin: 0 auto;">
+						<div class="mosaic" style="float:left;padding:21px;width:121px">
+							<a class="phocagallerycboxplusri" title="Önarckép ( 2. )" href="http://tronarpad.hu:81/images/phocagallery/festmenyek/portrek_arcok/thumbs/phoca_thumb_l_img_9976a.jpg" rel="phocagallerycboxplusri"><img src="csss/phoca_thumb_m_img_9976a.jpg" alt="Önarckép ( 2. )" width="121" height="140"></a>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+					<div class="art-block clearfix">
+						<div class="art-blockcontent">
+							<form action="http://tronarpad.hu:81/index.php/home" class="art-search" method="post">
+								<div class="search">
+									<input type="submit" value="" class="button art-search-button" onclick="this.form.searchword.focus();" style="zoom: 1;">
+									<label for="mod-search-searchword">Keresés...</label>
+									<input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox" type="text" size="20" value="Keresés..." onblur="if (this.value==&#39;&#39;) this.value=&#39;Keresés...&#39;;" onfocus="if (this.value==&#39;Keresés...&#39;) this.value=&#39;&#39;;">	
+									<input type="hidden" name="task" value="search">
+									<input type="hidden" name="option" value="com_search">
+									<input type="hidden" name="Itemid" value="101">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <footer class="art-footer">
+        <a title="RSS" class="art-rss-tag-icon" style="position: absolute; bottom: 5px; left: 6px; line-height: 32px; display: none;" href="http://tronarpad.hu:81/index.php/home#"></a>
+        <div style="position:relative;padding-left:10px;padding-right:10px">
+			<p>© 2014 Trón Árpád emlékhonlap (Containerized in 2020, Simplified to static pages as a jekyll project in 2024)</p>
+        </div>
+    </footer>
+
+</div>
+
+<div class="" id="boxplus">
+    <div class="boxplus-background boxplus-hidden"></div>
+    <div class="boxplus-dialog boxplus-hidden">
+		<div class="boxplus-progress"></div>
+		<div class="boxplus-sideways">
+			<div class="boxplus-thumbs">
+			<ul></ul>
+				<div class="boxplus-rewind"></div>
+				<div class="boxplus-forward"></div>
+			</div>
+			<div class="boxplus-controls">
+				<div class="boxplus-prev" title="Előző"></div>
+				<div class="boxplus-next" title="Következő"></div>
+				<div class="boxplus-start" title="Diavetítés indítása"></div>
+				<div class="boxplus-stop boxplus-unavailable" title="Diavetítés megállítása"></div>
+				<div class="boxplus-close" title="Bezár"></div>
+				<div class="boxplus-download boxplus-unavailable" title="Letöltés"></div>
+				<div class="boxplus-metadata boxplus-unavailable" title="Kép metadatai"></div>
+			</div>
+			<div class="boxplus-caption boxplus-unavailable">
+				<div class="boxplus-title boxplus-unavailable"></div>
+				<div class="boxplus-text boxplus-unavailable"></div>
+			</div>
+		</div>
+		<div class="boxplus-title boxplus-unavailable"></div>
+		<div class="boxplus-main">
+			<div class="boxplus-center">
+				<div class="boxplus-viewer boxplus-hidden" style="width: 150px; height: 150px;">
+					<img class="boxplus-unavailable"><div class="boxplus-prev" title="Előző"></div>
+					<div class="boxplus-next" title="Következő"></div>
+					<div class="boxplus-resizer">
+						<div class="boxplus-enlarge" title="Nagyítás"></div>
+						<div class="boxplus-shrink boxplus-unavailable" title="Kicsinyítés"></div>
+					</div>
+					<div class="boxplus-thumbs">
+					<ul></ul>
+					<div class="boxplus-rewind"></div>
+					<div class="boxplus-forward"></div>
+					</div>
+					<iframe frameborder="0" class="boxplus-unavailable" src="csss/saved_resource.html"></iframe>
+					<video autoplay="" controls="" class="boxplus-unavailable"></video>
+					<div class="boxplus-object boxplus-unavailable"></div>
+					<div class="boxplus-content boxplus-unavailable"></div>
+					<div class="boxplus-progress"></div>
+				</div>
+			</div>
+			<div class="boxplus-bottom">
+				<div class="boxplus-thumbs">
+					<ul></ul>
+					<div class="boxplus-rewind"></div>
+					<div class="boxplus-forward"></div>
+				</div>
+				<div class="boxplus-controls">
+					<div class="boxplus-prev" title="Előző"></div>
+					<div class="boxplus-next" title="Következő"></div>
+					<div class="boxplus-start" title="Diavetítés indítása"></div>
+					<div class="boxplus-stop boxplus-unavailable" title="Diavetítés megállítása"></div>
+					<div class="boxplus-close" title="Bezár"></div>
+					<div class="boxplus-download boxplus-unavailable" title="Letöltés"></div>
+					<div class="boxplus-metadata boxplus-unavailable" title="Kép metadatai"></div>
+				</div>
+				<div class="boxplus-caption boxplus-unavailable">
+					<div class="boxplus-title boxplus-unavailable"></div>
+					<div class="boxplus-text boxplus-unavailable"></div>
+				</div>
+			</div>
+		</div>
+	</div><!--uj-->
+</div><!--uj-->
+
+<div class="boxplus-lt"></div>
+<div class="boxplus-t"></div>
+<div class="boxplus-rt"></div>
+<div class="boxplus-l"></div>
+<div class="boxplus-m boxplus-hidden"></div>
+<div class="boxplus-r"></div>
+<div class="boxplus-lb"></div>
+<div class="boxplus-b"></div>
+<div class="boxplus-rb"></div></div>
+<div class="boxplus-dialog boxplus-hidden">
+<div class="boxplus-sideways">
+	<div class="boxplus-thumbs">
+		<ul></ul>
+		<div class="boxplus-rewind"></div>
+		<div class="boxplus-forward"></div>
+    </div>
+    <div class="boxplus-caption boxplus-unavailable">
+		<div class="boxplus-title boxplus-unavailable"></div>
+		<div class="boxplus-text boxplus-unavailable"></div>
+    </div>
+    <div class="boxplus-controls">
+		<div class="boxplus-prev" title="Előző"></div>
+		<div class="boxplus-next" title="Következő"></div>
+		<div class="boxplus-start" title="Diavetítés indítása"></div>
+		<div class="boxplus-stop boxplus-unavailable" title="Diavetítés megállítása"></div>
+		<div class="boxplus-close" title="Bezár"></div>
+		<div class="boxplus-download" title="Letöltés"></div>
+		<div class="boxplus-metadata" title="Kép metadatai"></div>
+    </div>
+</div>
+
+<div class="boxplus-title boxplus-unavailable"></div>
+<div class="boxplus-main">
+    <div class="boxplus-center">
+	<div class="boxplus-viewer boxplus-hidden">
+	    <div></div>
+	</div>
+    </div>
+    <div class="boxplus-bottom">
+		<div class="boxplus-thumbs">
+			<ul></ul>
+			<div class="boxplus-rewind"></div>
+			<div class="boxplus-forward"></div>
+		</div>
+		<div class="boxplus-caption boxplus-unavailable">
+			<div class="boxplus-title boxplus-unavailable"></div>
+			<div class="boxplus-text boxplus-unavailable"></div>
+		</div>
+		<div class="boxplus-controls">
+			<div class="boxplus-prev" title="Előző"></div>
+			<div class="boxplus-next" title="Következő"></div>
+			<div class="boxplus-start" title="Diavetítés indítása"></div>
+			<div class="boxplus-stop boxplus-unavailable" title="Diavetítés megállítása"></div>
+			<div class="boxplus-close" title="Bezár"></div>
+			<div class="boxplus-download" title="Letöltés"></div>
+			<div class="boxplus-metadata" title="Kép metadatai"></div>
+		</div>
+	</div>
+</div><!--uj-->
+
+<span class="boxplus-unknown-type"></span>
+<span class="boxplus-not-found"></span>
+
+<div id="sbox-overlay" aria-hidden="true" tabindex="-1" style="z-index: 65555; opacity: 0;"></div>
+<div id="sbox-window" role="dialog" aria-hidden="true" class="shadow" style="z-index: 65557;">
+    <div id="sbox-content" style="opacity: 0;"></div>
+    <a id="sbox-btn-close" href="http://tronarpad.hu:81/index.php/home#" role="button" aria-controls="sbox-window"></a>
+</div>
+
+<div id="art-resp">
+    <div id="art-resp-m"></div>
+    <div id="art-resp-t"></div>
+</div>
+
+</body>
+</html>
