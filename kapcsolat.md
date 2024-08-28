@@ -4,15 +4,14 @@ title: Életrajz
 permalink: /kapcsolat/
 ---
 
-<div class="art-layout-cell art-content">
-	<div class="item-page">
-		<article class="art-post">
-			<div class="art-postcontent clearfix">
-
-<div class="item-page"><article class="art-post"><div class="art-postcontent clearfix"><div class="art-article"><h1>Kapcsolat</h1>
-<p> </p>
-<p style="text-align: center;">Trón Lajos:</p>
-<p style="text-align: center;"><span id="cloakff83db04631157fd46b30215ceae6449">Ez az e-mail cím a spamrobotok elleni védelem alatt áll. Megtekintéséhez engedélyeznie kell a JavaScript használatát.</span><script type='text/javascript'>
+<div class="item-page">
+	<article class="art-post">
+		<div class="art-postcontent clearfix">
+			<div class="art-article">
+				<h1>Kapcsolat</h1>
+				<p> </p>
+				<p style="text-align: center;">Trón Lajos:</p>
+				<p style="text-align: center;"><span id="cloakff83db04631157fd46b30215ceae6449">Ez az e-mail cím a spamrobotok elleni védelem alatt áll. Megtekintéséhez engedélyeznie kell a JavaScript használatát.</span><script type='text/javascript'>
 				document.getElementById('cloakff83db04631157fd46b30215ceae6449').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
@@ -41,7 +40,3 @@ permalink: /kapcsolat/
 <p style="text-align: center;"> </p> </div></div></article></div>
 
 
-			</div>
-		</article>
-	</div>
-</div>
