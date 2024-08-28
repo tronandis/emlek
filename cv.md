@@ -24,9 +24,9 @@ permalink: /cv/
 					<h3 class="MsoNormal">Szenvedélyes igazságkereső, örök lázadó, öntörvényű művész volt.</h3>
 					<h3 class="MsoNormal">Nagy beleéléssel ábrázolta a megalázott, de örökké harcoló embert.</h3>
 					<p> </p>
-					<h2 style="text-align: center;"><a href="/index.php/2-uncategorised/14-szakmai-oneletrajz">Szakmai önéletrajz</a></h2>
+					<h2 style="text-align: center;"><a href="cv/szakmai.html">Szakmai önéletrajz</a></h2>
 					<hr />
-					<p><a href="/cv/foldi.html">Földi Péter ajánlása</a></p>
+					<p><a href="cv/foldi.html">Földi Péter ajánlása</a></p>
 					<p><a href="cv/kacsor.html">Kácsor Zsolt újságíró jellemzése Trón Árpádról</a></p>
 					<p><a href="cv/toth.html">Dr. Tóth Ervin jellemzése</a></p>
 					<p><a href="cv/tarczay.html">Tarczy Péter újságíró jellemzése</a></p>
