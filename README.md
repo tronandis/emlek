@@ -9,3 +9,15 @@ DNS: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-githu
 https://tomcam.github.io/least-github-pages/github-pages-url.html
 tronandris.github.io                         //{username}.github.io
 github.com/tronandris/tronandris.github.io   //github.com/{username}/{reponame}
+
+kompilalas: 
+  jekyll build
+kompilalas es 4000-es localhost porton valo teszt publikalals: 
+  bundle exec jekyll serve
+
+jekyll --version
+  jekyll 4.3.3
+
+bundle --version
+  Bundler version 2.5.17
+
